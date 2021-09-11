@@ -98,6 +98,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ExtermalAssemblies\PsDotNet_Library.lic" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -126,6 +127,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExtermalAssemblies\PsDotNet.Base.pdb" />
+    <Content Include="ExtermalAssemblies\PsDotNet.dll" />
+    <Content Include="ExtermalAssemblies\PsDotNet.pdb" />
+    <Content Include="ExtermalAssemblies\PsDotNet.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
